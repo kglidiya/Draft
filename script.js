@@ -13,7 +13,7 @@ test2.addEventListener('click', function() {
     background.classList.add('video_keys');
     background.classList.remove('video_notes');
     overlay.classList.remove('overlay_notes');
-    overlay.classList.add('overlay_keys');
+    //overlay.classList.add('overlay_keys');
 
       })
    
