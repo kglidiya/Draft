@@ -5,7 +5,7 @@ const overlay = document.querySelector('.overlay');
 
 test.addEventListener('click', function() {
  background.classList.add('video_notes');
- overlay.classList.add('overlay_notes');
+
  background.classList.remove('video_keys');
 })
 
