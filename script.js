@@ -5,15 +5,26 @@ const overlay = document.querySelector('.overlay');
 
 test.addEventListener('click', function() {
  background.classList.add('video_notes');
-
- background.classList.remove('video_keys');
+   if(background.classList.containes('video_keys') {
+     background.classList.remove('video_keys');
+}
+     if(background.classList.containes('overlay_keys') {
+     background.classList.remove('overlay_keys');
+}
+ background.classList.add('overlay_notes');
 })
 
 test2.addEventListener('click', function() {
     background.classList.add('video_keys');
-    background.classList.remove('video_notes');
-    overlay.classList.remove('overlay_notes');
-    //overlay.classList.add('overlay_keys');
+   if(background.classList.containes('video_notes') {
+     background.classList.remove('video_notes');
+}
+  
+    overlay.classList.add('overlay_keys');
+
+  if(background.classList.containes('overlay_notes') {
+     overlay.classList.remove('overlay_notes');
+}
 
       })
    
