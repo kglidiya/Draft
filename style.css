@@ -131,11 +131,11 @@ p:last-of-type {
 }
 
 .overlay_notes {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .overlay_keys {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.5);
 }
 .video_notes {
   background: url(https://mmteacher.ru/wp-content/uploads/2020/11/sheet-music-2656005_1920.jpg);
