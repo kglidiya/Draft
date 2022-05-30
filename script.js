@@ -26,7 +26,7 @@ test2.addEventListener('click', function() {
      overlay.classList.remove('overlay_notes');
 }
 
-      })
+})
    
 const height = document.documentElement.clientHeight;
 const video = document.querySelector('.video')
